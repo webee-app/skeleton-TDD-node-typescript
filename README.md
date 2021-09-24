@@ -10,3 +10,11 @@ cd skeleton-TDD-node-typescript
 # install dependencies
 npm install
 ```
+
+## Prepare Dev.
+### husky.
+
+```sh
+npm run prepare
+npx husky add .husky/pre-commit "npm run test"
+```
