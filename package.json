@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,14 @@
   "homepage": "https://github.com/webee-app/skeleton-TDD-node-typescript#readme",
   "devDependencies": {
     "@types/node": "^16.9.6",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "eslint": "^7.12.1",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
     "typescript": "^4.4.3"
   }
 }

@@ -1,3 +1,5 @@
-function test (): number {
-  return 40
+function t (): number {
+  return 44
 }
+
+t()
