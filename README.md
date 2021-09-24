@@ -16,5 +16,9 @@ npm install
 
 ```sh
 npm run prepare
-npx husky add .husky/pre-commit "npm run test"
+npx husky add .husky/pre-commit "npx lint-staged"
 ```
+
+### eslint.
+
+first install Eslint extension in code.
